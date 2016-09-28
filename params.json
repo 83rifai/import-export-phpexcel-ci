@@ -1,0 +1,6 @@
+{
+  "name": "Import-export-phpexcel-ci",
+  "tagline": "Import dan Export data Excel menggunakan PHPExcel dan Condeigniter",
+  "body": "# Import, Export Data Excel\r\n\r\n### Menggunakan :\r\n\r\n- PHPExcel\r\n- Codeigniter\r\n- MySQL\r\n\r\n### Install :\r\n\r\n- Buat database, upload scheme yang ada di dir project ini.\r\n- Setting conection database pada `config` Codeigniter\r\n- Jika sudah benar, jalankan.\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
