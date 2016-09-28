@@ -40,7 +40,7 @@
                         </tbody>
                         <tfoot>
                             <tr>
-                                <td colspan="4"><?php echo (!$_select ? 'Tidak Ada Data!!' : 'Ada '.$_numrow.' Data.')?></td>
+                                <td colspan="4"><?php echo (!$_select ? 'Tidak Ada Data!!' : 'Ada '.$_numrow.' Baris Data.')?></td>
                             </tr>
                         </tfoot>
                     </table>
