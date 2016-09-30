@@ -8,8 +8,9 @@
 
 ### Install :
 
-- Buat database, upload scheme yang ada di dir project ini.
+- Buat database, upload scheme yang ada di directory project ini.
 - Setting conection database pada `config` Codeigniter
+- Buat directory dengan nama `fileExcel`, sebagai directory file Excel di upload
 - Jika sudah benar, jalankan.
 
 
