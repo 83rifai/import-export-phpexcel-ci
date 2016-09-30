@@ -25,7 +25,6 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `data_orang`
 --
-
 CREATE TABLE IF NOT EXISTS `data_orang` (
   `id` int(11) NOT NULL,
   `nama` varchar(30) NOT NULL,
