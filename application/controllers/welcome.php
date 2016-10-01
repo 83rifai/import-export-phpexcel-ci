@@ -25,7 +25,10 @@ class Welcome extends CI_Controller {
         $data['_numrow']    = $numrow;
         $this->load->view('welcome_message',$data);
     }
-
+    
+    function error_404(){
+        $this->load->view('error_404');
+    }
 }
 
 /* End of file welcome.php */
