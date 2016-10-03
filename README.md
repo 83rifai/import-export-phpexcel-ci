@@ -1,12 +1,12 @@
-# Import, Export Data Excel
+# Import, Export Data Excel #
 
-### Menggunakan :
+### Menggunakan : ###
 
 - PHPExcel
 - Codeigniter
 - MySQL
 
-### Install :
+### Install : ###
 
 - Buat database, upload scheme yang ada di directory project ini.
 - Setting connection database pada `config` Codeigniter
