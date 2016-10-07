@@ -16,7 +16,7 @@
                 <?= form_open_multipart(base_url('import/upload'))?>
                 <div>
                     <label> Upload File</label>
-                    <?= form_upload(array('id' => 'txtFileImport', 'name' => 'fileImport'))?>
+                    <?= form_upload(array('id' => 'txtFileImport', 'name' => 'fileImport', 'accept' => '.csv, application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'))?>
                 </div>
                 <div class="padd-top-20">
                     <?= form_submit(array('name' => 'btnSubmit', 'value' => 'Upload'))?>
