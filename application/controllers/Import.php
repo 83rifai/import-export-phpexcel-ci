@@ -7,6 +7,10 @@
 class Import extends CI_Controller {
     public function __construct() {
         parent::__construct();
+        
+        if (!logged_in())
+            redirect('auth/login');
+        
         $this->load->library('PHPExcel');
     }
 

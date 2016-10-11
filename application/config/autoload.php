@@ -52,7 +52,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('session', 'database');
+$autoload['libraries'] = array('session', 'database', 'authme');
 
 
 /*
@@ -64,7 +64,7 @@ $autoload['libraries'] = array('session', 'database');
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('url', 'file', 'form');
+$autoload['helper'] = array('url', 'file', 'form', 'authme');
 
 
 /*
@@ -80,7 +80,7 @@ $autoload['helper'] = array('url', 'file', 'form');
 |
 */
 
-$autoload['config'] = array();
+$autoload['config'] = array('authme');
 
 
 /*

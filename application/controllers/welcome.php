@@ -18,6 +18,9 @@ class Welcome extends CI_Controller {
      * @see http://codeigniter.com/user_guide/general/urls.html
      */
     public function index() {
+        if (!logged_in())
+            redirect('auth/login');
+        
         $select = $this->db->get('data_orang')->result();
         $numrow = $this->db->get('data_orang')->num_rows();
         

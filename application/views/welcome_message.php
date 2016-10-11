@@ -45,6 +45,7 @@
                         </tfoot>
                     </table>
                 </div>
+                <code class="text-right"><?= anchor('auth/logout', 'Logout') ?></code>
             </div>
 
             <p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
