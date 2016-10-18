@@ -18,6 +18,9 @@
                 <p>Export Data Excel</p>
                 <code><?= anchor('export/', 'Export') ?></code>
                 
+                <p>Create Signature</p>
+                <code><?= anchor('signature/', 'Create') ?></code>
+                
                 <div>
                     <table>
                         <thead>
